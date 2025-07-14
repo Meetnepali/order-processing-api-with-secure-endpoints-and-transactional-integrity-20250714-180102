@@ -11,9 +11,9 @@ Expand the provided FastAPI application with an `/orders` router. This new route
 - Include at least one test (with Pytest) that verifies unauthorized users are rejected and invalid requests are handled as errors.
 
 ## Implementation Guidelines
-- Complete the implementation of the order creation and listing endpoints in the `app/routers/orders.py` file.
-- Ensure all routes are protected with JWT authentication (see `app/core/auth.py`). Only users with a valid JWT containing a `user_id` should be able to make requests.
-- Enforce proper request validation and robust error handling so that all error responses are consistent (i.e., always contain a JSON object with a `detail` field).
+- Complete the implementation of the order creation and listing endpoints in the routers file.
+- Ensure all routes are protected with JWT authentication . Only users with a valid JWT containing a `user_id` should be able to make requests.
+- Enforce proper request validation and robust error handling so that all error responses are consistent 
 - Orders must only be visible to their corresponding user.
 - All database actions for creating orders must be performed in a transaction, rolling back on error.
 - Feel free to add more tests if you believe it improves coverage, but ensure at least the required tests pass.
