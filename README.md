@@ -1,4 +1,4 @@
-# Guidance for Task: Order Processing API with Secure Endpoints and Transactional Integrity
+#  Order Processing API with Secure Endpoints and Transactional Integrity
 
 ## Task Summary
 Expand the provided FastAPI application with an `/orders` router. This new router must:
